@@ -1,0 +1,46 @@
+.app-header{
+    background-color: $clr2;
+    padding: 10px;
+
+.app-header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $clr2;
+    padding: 10px;
+
+    .filter-section{
+        flex: 2;
+        height: 30px;
+
+        input{
+            width: 50%;
+            height: 100%;
+            border: none;
+            border-radius: 0px 5px 5px 0px;;
+
+            :focus-visible{
+                border: none;
+                outline: unset;
+            }
+        }
+
+        select {
+            min-height: 100%;
+            width: fit-content;
+            border: none;
+            padding-left: 10px;
+            border-right: 1px solid #121212;
+            border-radius: 5px 0px 0px 5px;
+        }
+    }
+
+    .logo {
+        flex: 1;
+        img {
+            width: 64px;
+            height: 32px;
+        }
+    }
+}
+}

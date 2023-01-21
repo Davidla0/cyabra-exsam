@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $clr1;
+    color: $clr6;
+}
+
+html {
+    // line-height: 1;
+    color: $clr7;
+}
+
+body {
+    font-size: rem(16px);
+    margin: 0;
+    margin: auto;
+    background-color: $clr1;
+    color: $clr6;
+}

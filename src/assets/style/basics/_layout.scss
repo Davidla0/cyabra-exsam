@@ -1,0 +1,40 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    align-items: center;
+    background-color: $clr1;
+
+    >*:not(.full) {
+        grid-column: 2;
+    }
+
+    >.full {
+        grid-column: 1 / -1;
+    }
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+        position: relative;
+        height: 86vh;
+
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}

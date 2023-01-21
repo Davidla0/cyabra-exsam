@@ -1,0 +1,43 @@
+.movie-details {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    main {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+
+        .movie-description {
+            p {
+                font-family: main-font;
+                color: $clr6;
+                line-height: 20px;
+                
+                >b {
+                    margin: 0;
+                    margin-right: 5px;
+                    font-family: bold-font;
+                    color: $clr3;
+                }
+            }
+
+        }
+    }
+
+    .movie-details-footer {
+        position: absolute;
+        bottom: 15%;
+        left: auto;
+
+        button {
+            font-family: bold-font;
+            background-color: $clr3;
+            padding: 6px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

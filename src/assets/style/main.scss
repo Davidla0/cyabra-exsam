@@ -1,0 +1,23 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/typography";
+@import "setup/mixins";
+
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+
+//Cmp
+@import "cmps/movie-card";
+@import "cmps/movie-header";
+@import "cmps/movies-list";
+@import "cmps/pagination";
+@import "cmps/movie-footer";
+@import "cmps/loader";
+
+//Pages
+@import "pages/movie-details";
+@import "pages/movie-app";
